@@ -26,7 +26,7 @@ async function handler(req, res) {
 
     try {
       client = await MongoClient.connect(
-        'mongodb+srv://maximilian:2YkcXq43KyPk0vqp@cluster0.ntrwp.mongodb.net/my-site?retryWrites=true&w=majority'
+        'mongodb+srv://obakengeugene0218:obakengeugen0218@cluster0.jy8zg1s.mongodb.net/events?retryWrites=true&w=majority&appName=AtlasApp'
       );
     } catch (error) {
       res.status(500).json({ message: 'Could not connect to database.' });
