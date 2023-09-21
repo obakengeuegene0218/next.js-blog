@@ -7,13 +7,13 @@ function Hero() {
     <section className={classes.hero}>
       <div className={classes.image}>
         <Image
-          src='/images/site/profile.png'
-          alt='An image showing Eugene'
+          src='/images/site/max.png'
+          alt='An image showing Max'
           width={300}
           height={300}
         />
       </div>
-      <h1>Hi, I'm Eugene</h1>
+      <h1>Hi, I'm Max</h1>
       <p>
         I blog about web development - especially frontend frameworks like
         Angular or React.
